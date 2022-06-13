@@ -14,7 +14,7 @@
 
   `gcc ../path/to/file.c -o compiled.out && compiled.out < input.txt`
 
-- `-o`, `--on`, `--output`:
+- `-o`, `--out`, `--output`:
 
   `node index.js ../path/to/file.c -o output.txt`
 
