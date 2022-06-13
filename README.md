@@ -1,14 +1,20 @@
-# cmon
+# nzma
+
+nzma is a live reload tool for basic c programming.
+
+## Installation
+
+`npm install -g nzma`
 
 ## Usage
 
-`node index.js ../path/to/file.c`
+`nzma ../path/to/file.c`
 
 ## Options
 
 - `-i`, `--in`, `--input`:
 
-  `node index.js ../path/to/file.c -i input.txt`
+  `nzma ../path/to/file.c -i input.txt`
 
   The same of manually running:
 
@@ -16,7 +22,7 @@
 
 - `-o`, `--out`, `--output`:
 
-  `node index.js ../path/to/file.c -o output.txt`
+  `nzma ../path/to/file.c -o output.txt`
 
   The same of manually running:
 
