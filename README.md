@@ -1,6 +1,6 @@
 # nzma
 
-nzma is a live reload tool for basic c programming.
+Live reload tool for basic c programming.
 
 ## Installation
 

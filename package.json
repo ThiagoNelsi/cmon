@@ -1,7 +1,7 @@
 {
   "name": "nzma",
-  "version": "1.0.3",
-  "description": "## Usage",
+  "version": "1.0.0",
+  "description": "Live reload tool for basic c programming",
   "main": "src/index.js",
   "bin": "src/index.js",
   "scripts": {
