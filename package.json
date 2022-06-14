@@ -1,5 +1,5 @@
 {
-  "name": "nzma",
+  "name": "rodapf",
   "version": "1.0.0",
   "description": "Live reload tool for basic c programming",
   "main": "src/index.js",
