@@ -1,20 +1,20 @@
-# nzma
+# rodapf
 
 Live reload tool for basic c programming.
 
 ## Installation
 
-`npm install -g nzma`
+`npm install -g rodapf`
 
 ## Usage
 
-`nzma ../path/to/file.c`
+`rodapf ../path/to/file.c`
 
 ## Options
 
 - `-i`, `--in`, `--input`:
 
-  `nzma ../path/to/file.c -i input.txt`
+  `rodapf ../path/to/file.c -i input.txt`
 
   The same of manually running:
 
@@ -22,7 +22,7 @@ Live reload tool for basic c programming.
 
 - `-o`, `--out`, `--output`:
 
-  `nzma ../path/to/file.c -o output.txt`
+  `rodapf ../path/to/file.c -o output.txt`
 
   The same of manually running:
 
