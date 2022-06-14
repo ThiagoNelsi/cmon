@@ -13,10 +13,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ThiagoNelsi/cmon.git"
+    "url": "git+https://github.com/ThiagoNelsi/rodapf.git"
   },
   "bugs": {
-    "url": "https://github.com/ThiagoNelsi/cmon/issues"
+    "url": "https://github.com/ThiagoNelsi/rodapf/issues"
   },
-  "homepage": "https://github.com/ThiagoNelsi/cmon#readme"
+  "homepage": "https://github.com/ThiagoNelsi/rodapf#readme"
 }
