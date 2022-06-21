@@ -1,4 +1,5 @@
 const { spawn } = require('child_process');
+const getArg = require('./getArg');
 
 function compile(filePath, compiledCodePath, callback) {
   const options = {
@@ -7,7 +8,9 @@ function compile(filePath, compiledCodePath, callback) {
     shell: true,
   }
 
-  const compileProcess = spawn(`gcc ${filePath} -o ${compiledCodePath}`, options, (error, stdout, stderr) => {
+  const compilationOptions = getArg(['-c', '--compile', '--compile-options']);
+
+  const compileProcess = spawn(`gcc ${filePath} -o ${compiledCodePath} ${compilationOptions}`, options, (error, stdout, stderr) => {
     if (error) {
       console.error(`exec error: ${error}`);
       return;
