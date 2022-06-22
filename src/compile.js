@@ -10,7 +10,7 @@ function compile(filePath, compiledCodePath, callback) {
 
   const compilationOptions = getArg(['-c', '--compile', '--compile-options']);
 
-  const compileProcess = spawn(`gcc ${filePath} -o ${compiledCodePath} ${compilationOptions}`, options, (error, stdout, stderr) => {
+  const compileProcess = spawn(`gcc ${filePath} -o ${compiledCodePath} ${compilationOptions ? compilationOptions : ''}`, options, (error, stdout, stderr) => {
     if (error) {
       console.error(`exec error: ${error}`);
       return;
